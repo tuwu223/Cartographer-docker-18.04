@@ -9,8 +9,9 @@
 运行脚本(创建容器一次后再次使用此脚本将直接进入容器)：  
 `./start_cartographer_gui.sh`  
 将 catkin workspace 移到work中：  
-`cd /work  
-mkdir -p catkin_ws/src  
-cp -r /opt/catkin_ws/src/cartographer_ros /work/catkin_ws/src/  
-cd /work/catkin_ws  
-catkin_make`
+`cd /work`  
+`mkdir -p catkin_ws/src`  
+`cp -r /opt/catkin_ws/src/cartographer_ros /work/catkin_ws/src/`  
+`cd /work/catkin_ws`  
+`catkin_make`
+
