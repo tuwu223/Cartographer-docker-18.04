@@ -23,6 +23,7 @@
 安装好后进行测试：
 `wget -P ~/Downloads https://storage.googleapis.com/cartographer-public-data/bags/backpack_2d/cartographer_paper_deutsches_museum.bag`  
 `roslaunch cartographer_ros demo_backpack_2d.launch bag_filename:=${HOME}/Downloads/cartographer_paper_deutsches_museum.bag`  
-如果出现x11使用不了的情况：
-1.ubuntu22.04请注销用户后在登陆页面的右下角切换到Xorg
+如果出现x11使用不了的情况：  
+1.ubuntu22.04请注销用户后在登陆页面的右下角切换到Xorg  
 2.其余版本暂时没有测试。
+
